@@ -28,7 +28,7 @@ categories:
 Anaconda Promptを開き、以下のコマンドを実行して仮想環境を作成します。ここでは、Python 3.8を例にしていますが、必要に応じて他のバージョンに変更できます。
 
 ```
-conda create --name myenv python=3.8
+conda create --name myenv python=3.12.4
 ```
 
   
@@ -39,10 +39,10 @@ conda create --name myenv python=3.8
 
 仮想環境をアクティブにするには、以下のコマンドを実行します。
 
-※myenv部分はプロジェクトごとに代わる
+※プロジェクト名部分はプロジェクトごとに代わる
 
 ```
-conda activate <myenv>
+conda activate MathProject
 ```
 
   
