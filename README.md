@@ -135,12 +135,27 @@ Anacondaを使用して特定のPythonバージョンを指定した仮想環境
 
 この手順により、複数のユーザーが同じ環境を簡単に再現できるようになります。
 
-  
+
+### 数式のつかいかた及びjupiternote
+
+
+Jupyter Notebookを使用する場合、以下のコマンドを実行して必要なパッケージをインストールします。
+
+
+
+```
+pip install jupyter sympy
+```
+
+
+その後、以下のコマンドでJupyter Notebookを起動します。
+
+```
+jupyter notebook
+```
+
 
   
-
-##
-
 
 1. `question1` の計算:
    $$
