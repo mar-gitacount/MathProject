@@ -18,7 +18,9 @@ solutions = solve(equation, x)
 # 微分と積分
 f = x ** 2 + x
 derivative = diff(f, x)
+
 integral = integrate(f, (x, 0, 1))
+
 # 積分する式
 expression = 3 * x ** 2
 
@@ -27,6 +29,6 @@ integral_result = integrate(expression, x)
 
 # 結果の表示
 integral_result
-display(integral_result)
+display(equation)
 # 結果の表示
 expanded_expr, factored_expr, equation, solutions, derivative, integral

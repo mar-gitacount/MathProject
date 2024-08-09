@@ -1,5 +1,11 @@
 from fractions import Fraction
 import math
+from sympy import symbols, expand, factor, Eq, solve, diff, integrate, init_printing
+from IPython.display import display
+# 初期化
+init_printing()
+
+
 from sympy import symbols, sqrt
 def FractionMake(numerator, denominator):
     # 分子=numerator 分母=denominator
