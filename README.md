@@ -234,7 +234,7 @@ integral_result = integrate(expression, x)
 ```
 ### 結果
 >$$
-6/5
+\frac {6}{5}
 $$
 
 ## 積分備考 
@@ -256,12 +256,14 @@ $$
 
 >$$x^2 $$
 ↓↓
+
 >$$
 ∫x^2dx = \frac{x^3}{3}
 $$
 
 >$$x $$
 ↓↓
+
 >$$∫xdx = \frac{x^2}{2} $$
 
 
